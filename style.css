@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN:wght@100..400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    color: white;
+    background: rgb(118, 35, 85);
+    padding: 20px 0;
+}
+
+h1 {
+    opacity: 0;
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* Inicialmente invisível */
+    transform: translateY(-50px);
+    /* Posição inicial acima */
+    animation: titleEntrance 1s forwards;
+    /* Animação de entrada */
+}
+
+/* Animação de entrada */
+@keyframes titleEntrance {
+    to {
+        opacity: 1;
+        /* Torna o título visível */
+        transform: translateY(0);
+        /* Retorna à posição original */
+    }
+}
+
+.sessao-projetos {
+    text-align: center;
+}
+
+.sessao-projetos figure {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes flutuar {
+    0% {
+      top: 0;
+    }
+  
+    100% {
+      top: 30px;
+    }
+  }
+
+img {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    /* Torna a imagem circular */
+    object-fit: cover;
+    /* Garante que a imagem preencha o espaço */
+}
+
+.nome {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column; /* Organiza os botões em colunas */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.botao {
+    background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D 51%, #FBD3E9 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.botao a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: black;
+    text-decoration: none;
+}
+
+.rodape {
+    padding: 40px 0;
+    text-align: center;
+    background: rgb(118, 35, 85);
+    color: white;
+}
+
+.rodape h2 {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rodape img {
+    max-height: 40px;
+    /* Ajuste a altura da imagem */
+}
+
+.rodape .redes-sociais {
+    display: flex;
+    justify-content: center;
+    /* Centralizar horizontalmente */
+    margin: 0 20px;
+    gap: 20px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /*IMAGEM*/
+    .sessao-projetos img {
+        width: 60%;
+    }
+
+    /*TEXTOS*/
+    h1 {
+        text-align: 20px;
+    }
+
+    .nome {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
