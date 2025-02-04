@@ -15,7 +15,7 @@ body {
 header {
     color: white;
     background: rgb(118, 35, 85);
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
 }
 
 img {
-    max-width: 400px;
+    max-width: 200px;
     margin: auto;
     display: block;
     border-radius: 50%;
@@ -76,14 +76,14 @@ img {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     padding: 10px;
 }
 
 h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -93,6 +93,7 @@ h2 {
     /* Organiza os botões em colunas */
     align-items: center;
     /* Centraliza horizontalmente */
+    padding: 20px;
 }
 
 .botao {
@@ -180,19 +181,19 @@ h2 {
 
     /*IMAGEM*/
     .sessao-projetos img {
-        width: 60%;
+        width: 50%;
     }
 
     /*TEXTOS*/
     h1 {
-        text-align: 20px;
+        font-size: 22px;
     }
 
     .nome {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
