@@ -61,11 +61,10 @@ h1 {
     }
 }
 
-img {
+.perfil {
     max-width: 200px;
     margin: auto;
     display: block;
-    border-radius: 50%;
     /* Torna a imagem circular */
     object-fit: cover;
     /* Garante que a imagem preencha o espaço */
@@ -74,7 +73,7 @@ img {
 .nome {
     font-family: "Playwrite IN", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 22px;
     text-align: center;
@@ -85,6 +84,13 @@ h2 {
     text-align: center;
     font-size: 20px;
     padding: 20px;
+}
+
+hr {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid rgb(118, 35, 85);
+    /* Cor do gradiente */
 }
 
 .botoes {
