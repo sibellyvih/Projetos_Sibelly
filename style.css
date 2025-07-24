@@ -101,6 +101,13 @@ hr {
     /* Centraliza horizontalmente */
     padding: 20px;
 }
+.botoes img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    /* Espaçamento entre a imagem e os botões */
+}
 
 .botao {
     margin: 10px;
