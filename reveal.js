@@ -66,15 +66,6 @@ revelar.reveal('.esquerda',
         origin: 'left'
 })
 
-//CONTEÚDOS QUE VÃO APARECER NA DIREITA
-revelar.reveal('.direita',
-    {
-        duration: 2000,
-        distance: '90px',
-        delay: 1000,
-        origin: 'right'
-})
-
 //MODO FANTASMA
 ScrollReveal().reveal('.aparecer', {
     distance: '0px',
