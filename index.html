@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <h1>Bem-vindo</h1>
+        <h1>Bem-vindo à <br>minha trajetória acadêmica!</h1>
     </header>
 
     <section class="sessao-projetos">
@@ -31,53 +31,140 @@
             <a href="https://www.linkedin.com/in/sibellyvi/" target="_blank">LinkedIn</a>
             <a href="https://github.com/sibellyvih" target="_blank">GitHub</a>
         </div>
+
+        <div class="year-selector">
+            <button id="btn-2025" class="active" onclick="showYear('2025')">2025</button>
+            <button id="btn-2024" onclick="showYear('2024')">2024</button>
+            <button id="btn-2023" onclick="showYear('2023')">2023</button>
+            <button id="btn-2022" onclick="showYear('2022')">2022</button>
+        </div>
     </section>
         <hr>
 
-        <section class="Faculdade">
+    
+<section class="Faculdade">
+    <div id="2025-content" class="content-section active">
+        <h1>Estudante de Ciência da Computação</h1>
             <h1>2025</h1>
-            <h3>Hackathons</h3>
-        <div class="item">
-            <div class="carousel" id="hackathons-carousel">
-                <img src="Imagens/EducaTech.jpg" alt="Hackathon de educação" class="active">
-                <img src="Imagens/Educatech2.jpg" alt="Hackathon de educação 2">
-                <button class="arrow left" onclick="changeImage('hackathons-carousel', -1)">&#10094;</button>
-                <button class="arrow right" onclick="changeImage('hackathons-carousel', 1)">&#10095;</button>
-            </div>
-            <h4>Participação no EducaTech Unifil - Hackathon de educação.</h4>
-        </div>
-        <div class="item">
-            <div class="carousel" id="hackathons-carousel">
-                <img src="" alt="..." class="active">
-                <img src="" alt="...">
-                <button class="arrow left" onclick="changeImage('hackathons-carousel', -1)">&#10094;</button>
-                <button class="arrow right" onclick="changeImage('hackathons-carousel', 1)">&#10095;</button>
-            </div>
-            <h4>Participação no Hackathon Health Tech - Hackathon de saúde.</h4>
+
+            <h3>Artigo</h3>
+            <img class="imagem-sozinha" src="Imagens/artigo.jpg" alt="Capa do artigo Vangelho em Rede" class="artigo">
+            <h4>EVANGELHO EM REDE: TECNOLOGIAS, ALGORITMOS E O CRESCIMENTO EVANGÉLICO NO BRASIL</h4>
+            <h4>Vocare: Revista De Teologia Da UniFil</h4>
+
+        <div class="links">
+            <a href="http://periodicos.unifil.br/index.php/rev_teologica/article/view/3381" target="_blank">Leia aqui</a>
         </div>
 
-        </section>
+            <hr>
+
+            <h3>Hackathons</h3>
+        <div class="item">
+            <div class="carousel" id="educatech2025-carousel">
+                <img src="Imagens/EducaTech.jpg" alt="Hackathon de educação" class="active">
+                <img src="Imagens/Educatech2.jpg" alt="Hackathon de educação 2">
+                <button class="arrow left" onclick="changeImage('educatech2025-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('educatech2025-carousel', 1)">&#10095;</button>
+            </div>
+        </div>
+            <h4>Participação no EducaTech Unifil - Hackathon de educação.</h4>
+        <div class="item">
+            <div class="carousel" id="healthtech-carousel">
+                <img src="" alt="..." class="active">
+                <img src="" alt="...">
+                <button class="arrow left" onclick="changeImage('healthtech-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('healthtech-carousel', 1)">&#10095;</button>
+            </div>
+        </div>
+            <h4>Participação no Hackathon Health Tech - Hackathon de saúde.</h4>
+
+            <hr>
+        <h3>Ideathon</h3>
+        <div class="item">
+            <div class="carousel" id="secap2025-carousel">
+                <img src="Imagens/Ideathon.jpg" alt="Ideathon de Contabilidade" class="active">
+                <img src="Imagens/Ideathon2.jpg" alt="Ideathon de Contabilidade">
+                <img src="Imagens/Ideathon3.jpg" alt="Ideathon de Contabilidade">
+                <button class="arrow left" onclick="changeImage('secap2025-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('secap2025-carousel', 1)">&#10095;</button>
+            </div>
+        </div>
+            <h4>Participação no Ideathon Sescap - Ideathon de contabilidade.</h4>
+    </div>
+</section>
+    
+
+    <section class="ensino-medio">
+      <div id="2024-content" class="content-section">
+        
+            <h1>Ensino Médio</h1>
+            <h1>2024</h1>
+
+        <div class="item">
+            <div class="carousel" id="laurea-carousel">
+                <img src="Imagens/" alt="Láurea acadêmica" class="active">
+                <img src="Imagens/" alt="Láurea acadêmica">
+                <img src="Imagens/" alt="Oradora das turmas">
+                <button class="arrow left" onclick="changeImage('laurea-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('laurea-carousel', 1)">&#10095;</button>
+            </div>
+        </div>
+
+        <h3>Láurea acadêmica</h3>
+        <h5>Aluna destaque do ensino médio</h5>
 
         <hr>
 
-        <section class="ensino-medio">
-        <div class="botoes">
-            <h1>2024</h1>
-            <img src="Imagens/Sibelly e Fran.jpeg" alt="Foto na FIciencias de Sibelly e Francislene">
+            <div class="item">
+            <div class="carousel" id="ficiencias2024-carousel">
+                <img src="Imagens/Sibelly e Fran.jpeg" alt="Ficiencias 2023" class="active">
+                <img src="Imagens/Ideathon2.jpg" alt="Ficiencias 2023">
+                <img src="Imagens/Ideathon3.jpg" alt="Ficiencias 2023">
+                <button class="arrow left" onclick="changeImage('ficiencias2024-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('ficiencias2024-carousel', 1)">&#10095;</button>
+            </div>
+            </div>
             <h4>🏆 Projeto que foi premiado na XIII Feira de Inovação das Ciências e Engenharias - FIciencias:</h4>
+
+        <div class="botoes">
             <button class="botao eco"><a href="https://sibellyvih.github.io/ECO-BOARD-GAME/">ECO BOARD GAME</a></button>
-            <hr>
+        </div>
+    </section>
+
+    <section class="ensino-medio">
+
+    <div id="2023-content" class="content-section">
+
+        <h1>Segundo Ano do Ensino Médio</h1>
             <h1>2023</h1>
-             <img src="Imagens/Foto com bandeira.jpeg" alt="Bandeira da Nova Zelândia">
+            <div class="item">
+            <div class="carousel" id="ficiencias2023-carousel">
+                <img src="Imagens/Foto com bandeira.jpeg" alt="Ficiencias 2023" class="active">
+                <img src="Imagens/2FIciencias2023.JPG" alt="Ficiencias 2023">
+                <img src="Imagens/3FIciencias2023.JPG" alt="Ficiencias 2023">
+                <button class="arrow left" onclick="changeImage('ficiencias2023-carousel', -1)">&#10094;</button>
+                <button class="arrow right" onclick="changeImage('ficiencias2023-carousel', 1)">&#10095;</button>
+            </div>
+            </div>
+            <h4>Partipação na XII Feira de Inovação das Ciências e Engenharias - FIciencias</h4>
             <h4>🌏 Projetos que fiz sobre o meu intercâmbio:</h4>
     
+        <div class="botoes">
             <button class="botao dicas"><a href="https://sibellyvih.github.io/dicas_de_intercambio/">DICAS DE
                     INTERCÂMBIO</a></button>
             <button class="botao diario"><a href="https://sibellyvih.github.io/diario_de_intercambio/">DIÁRIO DE
                     INTERCÂMBIO</a></button>
-        </div>
+
+    </div>
         </section>
 
+    <section class="ensino-medio">
+        <div id="2022-content" class="content-section">
+                   <h1>Primeiro Ano do Ensino Médio</h1>
+            <h1>2022</h1>
+            <h4>Intercâmbio de estudos na Nova Zelândia</h4>
+        </div>
+    </section>
     </section>
 
 
@@ -124,7 +211,22 @@
         <p class="copyright">&copy; Copyright Projetos - 2025</p>
     </footer>
 
-     <script>
+    <script>
+        function showYear(year) {
+            // Ocultar todas as seções de conteúdo
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            // Mostrar a seção selecionada
+            document.getElementById(year + '-content').classList.add('active');
+            
+            // Atualizar botões ativos
+            document.querySelectorAll('.year-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById('btn-' + year).classList.add('active');
+        }
+        
         function changeImage(carouselId, direction) {
             const carousel = document.getElementById(carouselId);
             const images = carousel.querySelectorAll('img');
