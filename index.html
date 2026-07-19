@@ -20,7 +20,7 @@
 
     <section class="sessao-projetos">
 
-        <figure>
+        <figure id="movimento-foto-inicial">
             <img class="esquerda perfil" src="Imagens/Medalha.jpeg" alt="Foto de Sibelly">
             <figcaption class="nome esquerda">Sibelly Vitória</figcaption>
         </figure>
@@ -124,9 +124,7 @@
                 <div class="descricao">
 
                     <div class="bloco">
-
                         <h3>Sobre a pré-incubação</h3>
-
                         <p>
                             Nosso projeto passou por um processo de pré-incubação por meio da UniFil Tech, onde
                             realizamos cinco módulos, no qual organizamos nossa ideia, validamos a
@@ -134,7 +132,6 @@
                             com uma fake door e por fim o nosso pitch deck, em que tive a honra de poder apresentar
                             sobre a LinkUp.
                         </p>
-
                     </div>
 
                     <div class="bloco">
@@ -169,9 +166,78 @@
                             </svg>
                         </a>
                     </div>
-
                 </div>
+            </div>
+            <div class="experiencia">
+                <h2 class="titulo-evento">Lives nos Cursos de Férias</h2>
+                <p class="data-evento">Julho de 2026</p>
+                <div class="descricao">
+                    <div class="bloco">
+                        <div>
+                            <h3>Inglês para Programação: O essencial para devs</h3>
+                            <figure>
+                                <img src="Imagens/InglesLive.jpeg"
+                                    alt="Imagem da aluna Sibelly dando a live sobre Inglês para Programção"
+                                    class="imagem-sozinha">
+                                <figcaption>Curso ministrado para 20 alunos</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="bloco">
+                        <h3>Sobre a Live</h3>
+                        <p>Ministrei o curso <em>Inglês para Programação: o essencial para devs</em>, abordando a
+                            importância do inglês no desenvolvimento de software. Durante a aula, foram apresentados os
+                            principais termos técnicos utilizados em código, estratégias para leitura de documentações,
+                            interpretação de mensagens de erro, ferramentas de apoio à aprendizagem, situações reais do
+                            mercado de tecnologia e dicas para entrevistas em inglês voltadas à área de TI.</p>
+                    </div>
+                </div>
+                <div class="descricao">
+                    <div class="bloco">
+                        <div class="imagem-sozinha">
+                            <h3>Introdução a criação de modelos 3D</h3>
+                            <figure>
+                                <img src="Imagens/.jpeg"
+                                    alt="Imagem da aluna Sibelly dando a live sobre Introdução a criação de modelos 3D">
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="bloco">
+                        <h3>Sobre a Live</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experiencia">
+            <h2 class="titulo-evento">Aluna Tutora nos Cursos de Férias</h2>
+            <p class="data-evento">Julho de 2026</p>
+            <div class="carousel" id="tutoria2026">
 
+                <img src="Imagens/metabolismo-live.png" alt="Live de Noções Básicas do Metabolismo Energético"
+                    class="active">
+                <img src="Imagens/live-teologia.jpeg"
+                    alt="Live de Gramática da glória: linguagem, revelação e forma da fé">
+
+                <button class="arrow left" onclick="changeImage('tutoria2026',-1)">
+                    &#10094;
+                </button>
+
+                <button class="arrow right" onclick="changeImage('tutoria2026',1)">
+                    &#10095;
+                </button>
+            </div>
+            <div class="descricao">
+                <div class="bloco">
+                    <h3>Sobre a tutoria</h3>
+                    <p>Durante os Cursos de Férias tive a oportunidade de ser a aluna tutora de duas lives, <b>Noções
+                            Básicas do Metabolismo Energético</b> e <b>Gramática da glória: linguagem, revelação e forma
+                            da fé</b>. Auxiliei os professores das lives com entrada dos alunos na reunião via meet,
+                        ajudando com informações sobre as lives, além de disponibilizar os formulários de presença para
+                        os alunos conseguirem garantir o certificado. Foi muito bom o networking que tive com pessoal
+                        nestes cursos e também fiquei feliz em poder ajudar eles.</p>
+                </div>
             </div>
         </div>
 
@@ -183,7 +249,7 @@
                         <h1>2025</h1>
                         <h3>O que gostaria de conhecer?</h3>
                         <a href="#artigo">Artigo Científico</a><br><br>
-                        <a href="#londrinense">Monitora do Londrinense Tech</a><br><br>
+                        <a href="#Londrinense-formatura">Monitora do Londrinense Tech</a><br><br>
                         <a href="#hackathons">Hackathons</a><br><br>
                         <a href="ideathon">Ideathon</a>
                     </aside>
@@ -230,7 +296,7 @@
                             <ul>
                                 <li>Sibelly Vitória Antonio</li>
                                 <li>Eron Ponce Pereira</li>
-                                <li>Emerson Mildenberg</li>
+                                <li>Emerson Claudio Mildenberg</li>
                             </ul>
                         </div>
                         <div class="bloco">
@@ -245,7 +311,7 @@
                     </div>
                 </div>
 
-                <div class="experiencia">
+                <div class="experiencia" id="Londrinense-formatura">
 
                     <h2 class="titulo-evento">
                         Formatura de aluna monitora no Londrinense Tech
@@ -411,7 +477,8 @@
                 <h1>Primeiro Ano do Ensino Médio</h1>
                 <h1>2022</h1>
                 <h4>Intercâmbio de estudos na Nova Zelândia</h4>
-                <img class="imagem-sozinha" src="Imagens/nz.jpg" alt="Imagem de Sibelly segurando a bandeira da Nova Zelândia">
+                <img class="imagem-sozinha" src="Imagens/nz.jpg"
+                    alt="Imagem de Sibelly segurando a bandeira da Nova Zelândia">
             </div>
         </section>
     </section>

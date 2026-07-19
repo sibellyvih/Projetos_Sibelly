@@ -46,7 +46,7 @@ h1 {
     text-align: center;
 }
 
-.sessao-projetos figure {
+#movimento-foto-inicial {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -293,6 +293,7 @@ section {
     border-radius: 10px;
 
 }
+
 
 .botoes {
     display: flex;
